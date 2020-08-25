@@ -23,7 +23,7 @@ b. L`[begin_index:]` returns the portion from begin_index (inclusive) till the e
 c. L`[:end_index]` returns the portion from the beginning of the list till end_index (exclusive)
 
 ### 4. Simplified Comprehension
-`[for val in list if condition]`. It defines a new list containing a subset of the elements in the original list satisfying the condition. Only lists of integers should be supported.
+`[for val in list if condition]`. It defines a new list containing a subset of the elements in the original list satisfying the condition. Only lists of integers are supported.
 
 Conditions are restricted to the form: operand1 op operand2 where op is a comparison operator (==, !=, <, <=, >, >=) and each of the operands can be an integer, val or another condition. It also supports ‘and’, ‘or’, and ‘not’. 
 
